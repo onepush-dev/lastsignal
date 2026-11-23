@@ -2,7 +2,7 @@
 
 [LastSignal](https://github.com/giovantenne/lastsignal) (MIT): a self-hosted, end-to-end encrypted dead man's switch. It checks in with you by email; if you stop responding, your encrypted messages are delivered to the recipients you chose. Deploy it on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/-6Gy7K)
 
 ## What this template runs
 - **lastsignal**: `ghcr.io/onepush-dev/lastsignal:1.1.1`, the official `ghcr.io/giovantenne/lastsignal:1.1.1` image (application unmodified; runs as root so it can write the Railway volume). Rails + Thruster on port 8080, health check `/up`, Solid Queue runs inside Puma. One volume at `/rails/storage` holds the SQLite databases.
